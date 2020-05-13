@@ -13,6 +13,8 @@ write /proc/irq/240/smp_affinity_list 1
 
 # CPUSets
 write /dev/cpuset/background/cpus 0-1
+setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5,6
+setprop dalvik.vm.dex2oat-threads 6
 
 # CPUFreq
 write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/up_rate_limit_us 500
