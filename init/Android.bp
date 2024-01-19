@@ -45,9 +45,3 @@ prebuilt_etc {
     src: "ueventd.porsche.rc",
     device_specific: true,
 }
-
-sh_binary {
-    name: "init.porsche.post_boot.sh",
-    src: "init.porsche.post_boot.sh",
-    vendor: true,
-}

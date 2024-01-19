@@ -138,8 +138,7 @@ PRODUCT_PACKAGES += \
     init.porsche.perf.rc \
     init.qti.ufs.rc \
     init.target.rc \
-    ueventd.porsche.rc \
-    init.porsche.post_boot.sh
+    ueventd.porsche.rc
 
 # Keymaster
 PRODUCT_PACKAGES += \
