@@ -362,6 +362,3 @@ case "$console_config" in
 esac
 
 setprop vendor.post_boot.parsed 1
-
-# SSG
-echo 25 > /dev/blkio/background/blkio.ssg.max_available_ratio
