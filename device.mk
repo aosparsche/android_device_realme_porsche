@@ -187,9 +187,6 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
     fastbootd
 
-# Partitions - FRP
-BOARD_FRP_PARTITION_NAME := frp
-
 # Performance
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/perf/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
