@@ -43,8 +43,8 @@ void vendor_load_properties() {
         case 136882:
             product_name = "RMX3312";
             product_model = "RMX3312";
-            build_desc = "qssi-user 13 TP1A.220905.001 1701695584839 release-keys";
-            build_fingerprint = "realme/RMX3312/RE58B2L1:13/TP1A.220905.001/S.14fda1d_59162-1:user/release-keys";
+            build_desc = "RMX3312-user 14 UKQ1.230924.001 S.167c802-323e7-41de3 release-keys";
+            build_fingerprint = "realme/RMX3312/RE58B2L1:14/UKQ1.230924.001/S.167c802-323e7-41de3:user/release-keys";
             break;
         default:
             product_name = "RMX3311EEA";
